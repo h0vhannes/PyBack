@@ -19,6 +19,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Shared
   config.vm.synced_folder ".", "/var/www", :nfs => true
 
+  # Fix "sudo: no tty present and no askpass program specified" message
+  config.ssh.shell = "bash -c 'BASH_ENV=/etc/profile exec bash'"
+
   # Configure virtual host name
   config.vm.hostname = "payback.dev"
 end
