@@ -16,7 +16,7 @@ Setup
 * Download <a href="https://github.com/araratpoghosyan/PyBack/archive/master.zip" target="_blank">Zip Archive</a> and unzip it.
 * Open Vagrantfile with text editor and change **config.vm.hostname** value (payback) to your project name, ex. **config.vm.hostname = "project"**.
 * Copy **salt/pillar/config.sls.dist** file to **salt/pillar/config.sls**. Here you can specify all your configurations that will affect your installation.
-* Copy **salt/salt/nginx/conf/nginx.conf.dist** to **salt/salt/nginx/conf/nginx.conf**. This will be your nginx host configuration file.
+* Copy **salt/salt/nginx/conf/nginx.dev.conf** to **salt/salt/nginx/conf/nginx.conf**. This will be your nginx host configuration file.
 * Copy **system/settings.dist.py** to **system/settings.py**.
 * Open **terminal** (on Mac) or **cmd** (on Windows) and change your working directory to unzipped folder.
 * Run ```vagrant up```
