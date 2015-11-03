@@ -1,4 +1,4 @@
-Symfony-Vagrant Boilerplate
+Django-Vagrant Boilerplate
 ===
 
 A minimal Django boilerplate
