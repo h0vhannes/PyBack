@@ -23,5 +23,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.ssh.shell = "bash -c 'BASH_ENV=/etc/profile exec bash'"
 
   # Configure virtual host name
-  config.vm.hostname = "payback.dev"
+  config.vm.hostname = "payback"
 end

@@ -23,4 +23,4 @@ git pull
 # Post-deploy tasks
 # ----------------------------------------------------------------------------------------------------------------------
 
-sudo service cron restart
+sudo service circusd restart
