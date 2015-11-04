@@ -7,6 +7,7 @@ Requirements
 ===
 * <a href="https://www.vagrantup.com/downloads.html" target="_blank">Vagrant</a>
 * <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox</a>
+* <a href="https://git-scm.com/downloads" target="_blank">Git</a>
 
 install these requirements and continue
 
