@@ -5,5 +5,5 @@
     - venv
     - circus
     - nginx
-    - mysql
+    - postgresql
     - deploy
